@@ -1,0 +1,37 @@
+module StorageUpgrades {
+    item StorageUpgrade25
+    {
+        DisplayCategory = Material,
+        Type = Normal,
+        DisplayName = Storage Upgrade (25kg),
+        Icon = StorageUpgrade,
+        Weight = -25.01,
+    }
+
+    item StorageUpgrade50
+    {
+        DisplayCategory = Material,
+        Type = Normal,
+        DisplayName = Storage Upgrade (50kg),
+        Icon = StorageUpgrade,
+        Weight = -50.01,
+    }
+
+    item StorageUpgrade75
+    {
+        DisplayCategory = Material,
+        Type = Normal,
+        DisplayName = Storage Upgrade (75kg),
+        Icon = StorageUpgrade,
+        Weight = -75.01,
+    }
+
+    item StorageUpgrade100
+    {
+        DisplayCategory = Material,
+        Type = Normal,
+        DisplayName = Storage Upgrade (100kg),
+        Icon = StorageUpgrade,
+        Weight = -100.01,
+    }
+}

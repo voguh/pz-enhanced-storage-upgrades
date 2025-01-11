@@ -1,0 +1,68 @@
+module StorageUpgrades {
+    recipe 25kg Storage Upgrade
+    {
+        keep Base.Hammer/Base.BallPeenHammer/Base.HammerStone,
+        keep Base.Screwdriver,
+        Base.Screws=5,
+        Base.Plank=5,
+        Base.DuctTape=4,
+        Base.Nails=10,
+
+        NoBrokenItems:true,
+        Result:StorageUpgrades.StorageUpgrade25,
+        Time:250.0,
+        Category:Survivalist,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe 50kg Storage Upgrade
+    {
+        keep Base.Hammer/Base.BallPeenHammer/Base.HammerStone,
+        keep Base.Screwdriver,
+        Base.Screws=5,
+        Base.Plank=5,
+        Base.DuctTape=4,
+        Base.Nails=10,
+        StorageUpgrades.StorageUpgrade25,
+
+        NoBrokenItems:true,
+        Result:StorageUpgrades.StorageUpgrade50,
+        Time:250.0,
+        Category:Survivalist,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe 75kg Storage Upgrade
+    {
+        keep Base.Hammer/Base.BallPeenHammer/Base.HammerStone,
+        keep Base.Screwdriver,
+        Base.Screws=5,
+        Base.Plank=5,
+        Base.DuctTape=4,
+        Base.Nails=10,
+        StorageUpgrades.StorageUpgrade50,
+
+        NoBrokenItems:true,
+        Result:StorageUpgrades.StorageUpgrade75,
+        Time:250.0,
+        Category:Survivalist,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe 100kg Storage Upgrade
+    {
+        keep Base.Hammer/Base.BallPeenHammer/Base.HammerStone,
+        keep Base.Screwdriver,
+        Base.Screws=5,
+        Base.Plank=5,
+        Base.DuctTape=4,
+        Base.Nails=10,
+        StorageUpgrades.StorageUpgrade75,
+
+        NoBrokenItems:true,
+        Result:StorageUpgrades.StorageUpgrade100,
+        Time:250.0,
+        Category:Survivalist,
+        CanBeDoneFromFloor:true,
+    }
+}
