@@ -1,0 +1,14 @@
+version=1
+id=3396132383
+title=Enhanced Storage Upgrades
+description=A very basic mod which adds craftable "storage upgrade" items, which increase the capacity of any inventory/container.
+description=This is a rework of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2967288581]GX9's Storage Upgrades[/url] that fix crafting.
+description=
+description=
+description=
+description=This item is not authorized for posting on Steam, except under the Steam account named Voguh.
+description=[code]
+description=This project is under GNU LESSER GENERAL PUBLIC LICENSE, Version 3.
+description=[/code]
+tags=Build 41;Items
+visibility=private
