@@ -1,6 +1,7 @@
 id=EnhancedStorageUpgrades
 name=Enhanced Storage Upgrades
-modversion=1.0.0
+modversion=1.0.1
 url=https://github.com/voguh/pz-enhanced-storage-upgrades
 description=A rework of GX9's Storage Upgrades that fix crafting
+author=Voguh
 poster=poster.png
