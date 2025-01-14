@@ -1,5 +1,19 @@
 # Enhanced Storage Upgrades
 
+## 1.0.1
+
+Update mod info.
+
+
+### Refactored/Changed
+
+- Added author in mod info;
+- Updated workshop description and visibility;
+
+
+---
+
+
 ## 1.0.0
 
 This was de first stable release.
